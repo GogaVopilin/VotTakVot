@@ -141,24 +141,25 @@ h1{
     font-family: Roboto, sans-serif;
     font-size: 14px;
     font-weight: 500;
-    background-color: aliceblue;
+    background-color: transparent;
     border-radius:40px;
     width: 145px; height: 28px;
     color:    #E5C6B2;
-    border-color: #E5C6B2;
-    opacity: 1;}
+    border:2px solid #E5C6B2;
+    margin-left: 10px;
+}
 .da{
     display: flex;
     justify-content: space-between;
+    margin-bottom:30px ;
 }
 .article_1{
     width: 540px;height: 285px;
     background-color: #EAEDF2; 
+    position: relative;
+    bottom: 18px;
 }
-.article{position: relative;
-    top: -15px;
 
-}
 .nadpyc{ font-family: Roboto, sans-serif;
     font-size: 24px;
     font-weight: 600;
@@ -172,15 +173,22 @@ h1{
     background-color: #EAEDF2;
     border-radius:40px;
     width: 145px; height: 28px;
-    border-color:#BF6024;
+    border:2px solid #BF6024;
     color: #BF6024;
     margin-left: 15%;
     position: relative;
     top: 60px;
 }
+.article{
+    width: 540px;height: 600px;
+    
+}
 .article_2{
     width: 540px;height: 285px;
-    background-color: #EAEDF2;}
+    background-color: #EAEDF2;
+    position: relative;
+    bottom: 18px;
+}
 .reg{font-family: Roboto, sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -207,7 +215,7 @@ h1{
     background-color: #EAEDF2;
     border-radius:40px;
     width: 145px; height: 28px;
-    border-color:#BF6024;
+    border:2px solid #BF6024;
     color: #BF6024;
     margin-left: 5%;
     position: relative;
