@@ -91,16 +91,10 @@ h1{
     font-weight:500 ;
 
 }
-.ar1{
-    display: flex;
-    justify-content: space-between;
-    height: 400px;
-}
-.ar2{
-    display: flex;
-    justify-content: space-between;
-    height: 400px;
-    border-bottom: 1px solid #7A7A7A;
+.artycle{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
 }
 
 
